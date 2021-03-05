@@ -1,0 +1,120 @@
+
+.Search__Header{
+      display: flex;
+  position:sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  flex-direction: row;
+  align-items: flex-start;
+   padding: 30px;
+   padding-bottom: 20px;
+   border-bottom: 1px solid lightgrey;
+}
+.Search__Headerbody >.search >.search__input
+{
+      margin-top: 0;
+      width: unset;
+      margin: unset;
+      max-width: unset;
+      min-width: 90vh;
+}
+.Search__logo{
+      object-fit: contain;
+      height: 50px;
+      margin-right: 50px;
+}
+.Search__Headerbody{
+display: flex;
+align-self: flex-start;
+flex-direction: column;
+}
+
+.Search__Headerright{
+      display: flex;
+justify-content: flex-end;
+align-items: center;
+    margin-left: auto;
+}
+.Search__Headerrightoptions{
+      display: flex;
+justify-content: center;
+    align-items: center;
+}
+.Search__options{
+      display: flex;
+      align-items: center;
+      color: gray;
+      justify-content: space-between;
+}
+.Search__optionsleft a , .Search__optionsright a {
+      text-decoration: none;
+      color: gray;
+}
+.Search__optionsleft , .Search__optionsright{
+  display: flex;
+}
+.Search__option{
+      display: flex;
+    margin-right: 20px;
+      align-self: center;
+      justify-content: center;
+}
+.Search__option >.MuiSvgIcon-root{
+margin-right: 5px;
+}
+.Search__optionsright{
+      margin-left: 80px;
+}
+.Search__Headerrightoptions > .MuiSvgIcon-root {
+      margin: 5px
+
+}
+.Search__results{
+      display: flex;
+      flex-direction: column;
+      margin-left: 180px;
+      margin-top: 20px;
+      max-width: 650px;
+      
+}
+.Search__image{
+      object-fit: contain;
+      height: 50px;
+      width: 50px;
+      margin-right: 10px;
+align-content: center;
+}
+
+.Search__resultscount{
+      color: rgb(112,117,122);
+      font: 18px arial,sans-serif;
+      padding:0 8px 16px 0;
+}
+.Search__resultlink{
+      
+margin-bottom: 30px;}
+
+.Search__resultlink>a{
+      color: rgb(32,33,36);
+      font: 14px arial,sans-serif;
+      padding:1px 0 0 ;
+      text-decoration: none;
+ 
+
+}
+.Search__resulttitle{
+      margin: 0 0 3px;
+      padding:10px 0 0;
+}
+.Search__resulttitle:hover{
+      text-decoration: underline;
+}
+.Search__resulttitle>a{
+      font-weight: normal;
+      font:20px arial,sans-serif ;
+      line-height: 1.3;
+      color: rgb(102,0,153);
+      text-decoration: none;
+}
+
